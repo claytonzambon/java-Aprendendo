@@ -1,16 +1,12 @@
 package a001_exerciciosbasicos.comparandoInteiros;
 
-import java.util.Scanner;
-
 import javax.swing.JOptionPane;
 
 public class ComparandoInteiros {
 
 	public static void main(String[] args) {
 		
-		Scanner leitura = new Scanner(System.in);
 		JOptionPane.showMessageDialog(null, "### Programa que compara dois números inteiros digitados ###");
-		//System.out.println("### Programa que compara dois números inteiros digitados ###\n");
 		
 		int primeiroNumero = 1;
 		int segundoNumero = 1;
@@ -41,7 +37,6 @@ public class ComparandoInteiros {
 			JOptionPane.showMessageDialog(null, mensagem);
 		}
 		
-		leitura.close();
 		JOptionPane.showMessageDialog(null, "--- Fim da execução do Software ---");
 
 	}
